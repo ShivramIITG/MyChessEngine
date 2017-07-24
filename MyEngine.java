@@ -4,10 +4,9 @@ import javax.swing.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 /*
-Move: sliding-pieces,Pawn promotion, en-passant,castling
+Move: Pawn promotion, en-passant,castling
 Algo: alpha-beta,rating,sorting OR trans-table+zoborist
 Bugs: cant move to 63
-Opts: see his code(iterate thru 1s),Remove unnecessary 1<<i's,De Bruijn Multiplication
 */
 
 class zoboristTable {
